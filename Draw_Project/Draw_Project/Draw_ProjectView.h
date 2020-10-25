@@ -55,8 +55,8 @@ public:
 	CPoint m_end;
 	enum { MODE_LINE, MODE_CIRCLE };
 	int m_mode;
-	unsigned int m_countLine;
-	unsigned int m_countCircle;
+	int m_countLine;
+	int m_countCircle;
 };
 
 #ifndef _DEBUG  // Draw_ProjectView.cpp의 디버그 버전
