@@ -141,7 +141,7 @@ void CDrawProjectView::OnLButtonDown(UINT nFlags, CPoint point)
 	m_end = m_start = point;
 	CView::OnLButtonDown(nFlags, point);
 
-	CView::OnLButtonDown(nFlags, point);
+	
 }
 
 
@@ -194,7 +194,7 @@ void CDrawProjectView::OnRButtonDown(UINT nFlags, CPoint point)
 	m_end = m_start = point;
 	CView::OnRButtonDown(nFlags, point);
 
-	CView::OnRButtonDown(nFlags, point);
+	
 }
 
 
@@ -209,5 +209,5 @@ void CDrawProjectView::OnRButtonUp(UINT nFlags, CPoint point)
 	Invalidate();
 	CView::OnRButtonUp(nFlags, point);
 
-	CView::OnRButtonUp(nFlags, point);
+	
 }
