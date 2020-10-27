@@ -53,7 +53,8 @@ public:
 	CPoint m_line2[100];
 	CPoint m_start;
 	CPoint m_end;
-	enum { MODE_LINE, MODE_CIRCLE };
+	int  MODE_LINE;
+	int MODE_CIRCLE;
 	int m_mode;
 	int m_countLine;
 	int m_countCircle;
